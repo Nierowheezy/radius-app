@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* font-size: 62.5%; */
+  font-family: Helvetica, sans-serif;
+  background: url(../../images/stripe.png) repeat;
+}
+
+p {
+  font-size: 1.3em;
+  margin-bottom: 15px;
+}
+
+#page-wrap {
+  width: 660px;
+  background: white;
+  padding: 20px 50px 20px 50px;
+  margin: 150px auto;
+  border-radius: 20px;
+  /* min-height: 500px; */
+  height: auto !important;
+  /* height: 500px; */
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>A Nice &amp; Simple Contact Form</title>
+    <link rel="stylesheet" href="assets/css/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/css/styles/styles.css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  </head>
+
+  <body>
+    <div id="page-wrap">
+      <h3 class="mx-3">Please enter your email</h3>
+
+      <div id="contact-area">
+        <form method="post" action="user_process.php">
+          <div class="container">
+            <div class="form-group">
+              <label for="Email">Email address</label>
+              <input
+                type="email"
+                name="email"
+                id="Email"
+                class="form-control"
+              />
+              <small id="emailHelp" class="form-text text-muted"
+                >We'll never share your email with anyone else.</small
+              >
+              <input
+                type="submit"
+                name="submit"
+                value="Submit"
+                class="mt-4 submit-button btn btn-primary"
+                class="form-control"
+              />
+            </div>
+          </div>
+        </form>
+
+        <div style="clear: both;"></div>
+      </div>
+    </div>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+  </body>
+</html>
